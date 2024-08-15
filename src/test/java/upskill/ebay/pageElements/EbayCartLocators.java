@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 public class EbayCartLocators {
 	
 	//Shirt size type
-	@FindBy(xpath="//select[@selectboxlabel='Size Type']")
+	@FindBy(xpath="//span[contains(text(), 'Size Type')]")
 	public WebElement ddSizeType;
 	
 	//Shirt men size

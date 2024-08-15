@@ -46,11 +46,11 @@ public class EbayHomePageSteps {
 	
 	@When("^Mouse Hover to MyEbay Summary$")
 	public void mouse_Hover_to_MyEbay_Summary() throws Throwable {
-	    
+		EbayHomePageActionsObj.mouseHoverEbay();
 	}
 
 	@Then("^Click on Summary$")
 	public void click_on_Summary() throws Throwable {
-	    
+		EbayHomePageActionsObj.clickSummary();
 	}
 }

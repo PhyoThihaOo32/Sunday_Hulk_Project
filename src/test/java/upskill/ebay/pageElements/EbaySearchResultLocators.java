@@ -10,7 +10,7 @@ public class EbaySearchResultLocators {
 	public WebElement txtShoes;
 	
 	//Validate Shoes Items
-	@FindBy(xpath="//span[2][contains(text(), 'Shirts')]")
+	@FindBy(xpath="//span[2][contains(text(), 'This is from Excel File')]")
 	public WebElement txtShirts;
 	
 	//Validate Shoes Items

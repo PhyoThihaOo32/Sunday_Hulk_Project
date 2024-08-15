@@ -4,6 +4,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
 import upskill.ebay.pageElements.EbaySearchResultLocators;
+import upskill.utilities.ReadExcelSheet;
 import upskill.utilities.SetupDrivers;
 
 public class EbaySearchResultActions {
@@ -27,13 +28,13 @@ public class EbaySearchResultActions {
 		EbaySearchResultLocatorsObj.txtShoes.isDisplayed();
 	}
 	
-	public void verifyShirtsItems(){
+	public void verifyShirtsItems() throws Exception{
 		
 		//Option 1
 		Assert.assertTrue(EbaySearchResultLocatorsObj.txtShirts.isDisplayed());
 		
 		//Option 2
-		Assert.assertEquals("Shirts", EbaySearchResultLocatorsObj.txtShirts.getText());
+		Assert.assertEquals(ReadExcelSheet.getMapData("Search"), EbaySearchResultLocatorsObj.txtShirts.getText());
 		
 		//Option 3
 		EbaySearchResultLocatorsObj.txtShirts.isDisplayed();

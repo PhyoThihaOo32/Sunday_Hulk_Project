@@ -7,19 +7,3 @@
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
-
- 
-<!-- Parallel Execution
-
- <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Regression" parallel="tests" thread-count="2">
-  <test name="Ebay">
-   <classes>
-      <class name="upskill.runners.RunnerClass"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
-
-
--->
