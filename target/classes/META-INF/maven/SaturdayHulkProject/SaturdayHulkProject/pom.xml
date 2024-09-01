@@ -53,7 +53,7 @@
 			<version>1.0.5</version>
 		</dependency>
 		
-		<!-- For Mac newer version
+		
 		
 		<dependency>
     		<groupId>io.cucumber</groupId>
@@ -73,7 +73,11 @@
     		<version>6.10.2</version>
 		</dependency>
 		
-		-->
+	<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.8.0</version>
+</dependency>
 
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -131,7 +135,12 @@
 			<artifactId>groovy-all</artifactId>
 			<version>2.4.5</version>
 		</dependency>
-  </dependencies>
+		<dependency>
+			<groupId>com.google.searchProducts</groupId>
+			<artifactId>com.google.searchProducts</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+ </dependencies>
   	<build>
 		<!-- <sourceDirectory>src</sourceDirectory> -->
 		<plugins>
